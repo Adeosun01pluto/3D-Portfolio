@@ -27,10 +27,23 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import handyride from "./handyride.png";
+import jhay from "./jhay.png";
+import quicktax from "./quicktax.png";
+import wanderwise from "./wanderwise.png";
+import propsure from "./propsure.png";
+import fleettracker from "./fleettracker.png";
 import jobit from "./jobit.png";
+
 import tripguide from "./tripguide.png";
 
 export {
+  wanderwise,
+  fleettracker,
+  propsure,
+  jhay,
+  quicktax,
+  handyride,
   logo,
   backend,
   creator,

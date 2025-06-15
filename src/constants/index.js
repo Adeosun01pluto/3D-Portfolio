@@ -23,6 +23,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  handyride,
+  wanderwise,
+  quicktax,
+  jhay,
+  fleettracker,
+  propsure
 } from "../assets";
 
 export const navLinks = [
@@ -41,24 +47,23 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  {
+    title: "Web Development",
+    icon: web,
+  },
+  {
+    title: "App Development",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
+  {
+    title: "Content Creator",
+    icon: creator,
+  },
 ];
-
 const technologies = [
   {
     name: "HTML 5",
@@ -80,10 +85,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -96,75 +101,71 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Frontend Engineer (Contract)",
+    company_name: "HandyRide.ng",
+    icon: null,
+    iconBg: "#383E56",
+    date: "Apr 2025 - Jun 2025",
+    points: [
+      "Developed and maintained the **HandyRide.ng** logistics and food delivery platform for seamless order processing and real-time tracking.",
+      "Implemented real-time features and intuitive user flows using React.js and Firebase.",
+      "Used Tailwind CSS to create a clean, mobile-responsive UI optimized for users on the go.",
+    ],
+  },
+  {
+    title: "Frontend Developer (Freelance)",
+    company_name: "", // You can use "Self-Employed" if needed
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2024 - 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems.",
+      "Leveraged expertise in JavaScript, TypeScript, React, and Tailwind CSS to deliver high-quality web applications.",
+      "Focused on building responsive user interfaces and engaging web experiences.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Development Instructor",
+    company_name: "Alpha Tech School & Hub",
+    icon: null,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2023 - Apr 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Taught React.js, Next.js, and Tailwind CSS to aspiring developers through hands-on projects and live sessions.",
+      "Conducted code reviews and provided constructive feedback to enhance students' code quality and understanding of best practices.",
+      "Guided learners in debugging, performance optimization, and building responsive user interfaces.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Frontend Engineer (Contract)",
+    company_name: "Jhay (P2P Transaction Platform)",
+    icon: null,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - Mar 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built a secure peer-to-peer transaction platform called **Jhay**, enabling users to buy and sell locally with ease.",
+      "Implemented real-time chat and transaction status updates using Firebase.",
+      "Designed and built responsive frontend components using React.js and Tailwind CSS for a smooth user experience.",
     ],
   },
 ];
@@ -172,42 +173,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Working on HandyRide with Adeosun was fantastic. The real-time updates and seamless user experience highlight strong React and Firebase skills.",
+    name: "Handy Tech",
+    designation: "Operations Manager",
+    company: "HandyRide Innovations",
+    image: "https://placehold.co/100x100/DDA0DD/000000?text=HT", // Placeholder image
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Adeosun's expertise with React and Tailwind CSS brought our Prop-Sure platform to life. The intuitive UI and seamless responsiveness exceeded our expectations.",
+    name: "Nnonso Zamani",
+    designation: "Project Lead",
+    company: "Prop Solutions Inc.",
+    image: "https://placehold.co/100x100/F5F5DC/000000?text=NZ", // Placeholder image
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "For Quick-Tax, Adeosun's deep understanding of JavaScript and TypeScript ensured a robust and highly efficient tax application. We were impressed by the clean code and performance.",
+    name: "John Carter",
+    designation: "Head of Finance",
+    company: "Rapid Tax Services",
+    image: "https://placehold.co/100x100/ADD8E6/000000?text=JC", // Placeholder image
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Prop-Sure",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A robust web platform designed for secure property management, enabling users to browse listings, view detailed property information, and streamline rental or purchase processes.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +216,113 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: propsure, // Reusing existing image variable
+    source_code_link: "https://propsure.vercel.app", // Assuming this is the live link
   },
   {
-    name: "Job IT",
+    name: "HandyRide",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A real-time ride-sharing web application enabling users to request rides, track drivers, and manage bookings. Designed for efficiency and a convenient user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "node",
+        color: "pink-text-gradient", // Using Node to imply backend for real-time aspects
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: handyride, // Reusing existing image variable
+    source_code_link: "https://handyride.vercel.app", // Assuming this is the live link
   },
   {
-    name: "Trip Guide",
+    name: "Wander-Wise",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An intelligent travel planning platform providing users with personalized recommendations, itinerary creation, and seamless booking integrations for a guided and efficient travel experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: wanderwise, // Reusing existing image variable
+    source_code_link: "https://wanderwisee.vercel.app/",
+  },
+    {
+    name: "Quick-Tax",
+    description:
+      "An intuitive web application designed to simplify tax preparation, allowing users to input financial data, calculate taxes, and generate reports with ease, built with a focus on user experience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: quicktax, // Reusing existing image variable
+    source_code_link: "https://quicktaxx.vercel.app", // Assuming this is the live link
+  },
+  {
+    name: "Jhay",
+    description:
+      "A local peer-to-peer platform facilitating direct connections between users for sharing resources or services within their community, promoting local collaboration.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase", // Suggests backend for P2P communication
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jhay, // Reusing existing image variable
+    source_code_link: "https://jhayexchange.netlify.app/",
+  },
+  {
+    name: "FleetTrackr",
+    description:
+      "A comprehensive fleet management dashboard providing real-time tracking, analytics, and operational insights for efficient vehicle and resource management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fleettracker, // Reusing existing image variable
+    source_code_link: "https://fleetfix.netlify.app/",
   },
 ];
 

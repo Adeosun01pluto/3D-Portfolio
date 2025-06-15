@@ -17,15 +17,18 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div style={{ transform: 'translateZ(0)' }}
+       variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt 
-        tiltMaxAngleX={25} tiltMaxAngleY={25}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        // tiltMaxAngleX={25} tiltMaxAngleY={25}
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full z-0 overflow-hidden'
       >
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
+             width="100%"
+              height="230"
             className='w-full h-full object-cover rounded-2xl'
           />
 

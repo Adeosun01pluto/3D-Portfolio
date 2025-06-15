@@ -19,7 +19,7 @@ const ProjectCard = ({
   return (
     <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
       <Tilt
-        // tiltMaxAngleX={25} tiltMaxAngleY={25}
+        tiltMaxAngleX={25} tiltMaxAngleY={25}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full z-0 overflow-hidden'
       >
         <div className='relative w-full h-[230px]'>

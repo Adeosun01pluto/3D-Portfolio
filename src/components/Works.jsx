@@ -17,9 +17,8 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div style={{ transform: 'translateZ(0)' }}
-       variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt 
+    <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full">
+      <Tilt
         // tiltMaxAngleX={25} tiltMaxAngleY={25}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full z-0 overflow-hidden'
       >
@@ -61,8 +60,8 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt >
-    </motion.div>
+      </Tilt>
+    </div>
   );
 };
 

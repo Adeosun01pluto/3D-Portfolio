@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { MdEmail } from "react-icons/md";
+import { FaGithub, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   const formRef = useRef();
@@ -74,7 +76,27 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+          {/* Contact Links with React Icons */}
+          <div className="mt-2 flex gap-6"> {/* Increased gap for better spacing with icons */}
+            <a
+              href="https://wa.me/+2347040877605"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#915EFF] transition-colors duration-300 flex items-center gap-2"
+            >
+              <FaWhatsapp className="text-2xl" /> {/* WhatsApp Icon */}
+              WhatsApp
+            </a>
+            <a
+              href="https://github.com/Adeosun01pluto/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-[#915EFF] transition-colors duration-300 flex items-center gap-2"
+            >
+              <FaGithub className="text-2xl" /> {/* GitHub Icon */}
+              GitHub
+            </a>
+          </div>
         <form
           ref={formRef}
           onSubmit={handleSubmit}
